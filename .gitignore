@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+venv/
+.venv/
+env/
+
+# IDE / редактор
+.vscode/
+.idea/
+*.swp
+
+# ОС
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Секреты (на будущее)
+.env
+*.env
