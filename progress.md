@@ -38,11 +38,21 @@
 
 **День 3** — два числа через `input`, `int()`, сумма и четыре операции. ✅ закрыт.
 
+## Git / GitHub
+
+✅ **Подключено** (сессия во время Дня 4)
+
+- Remote: `https://github.com/mrprohindei/python-ai-learning.git`
+- Ветка: `main`
+- Первый коммит: «Начало курса Python: дни 1-3 закрыты, день 4 в процессе»
+- Учёба на работе → дом: `git push` / `git pull` или Source Control в Cursor (**Ctrl+Shift+G**)
+
 ## Следующий шаг
 
 1. Написать код в `lessons/day_04.py`.
 2. Проверить в терминале.
 3. Сдать по шаблону из `lesson_check_template.md`.
+4. После изменений — `git commit` + `git push`.
 
 ## Заметки для следующего чата
 
@@ -50,6 +60,7 @@
 Открой python-ai-learning. Прочитай README.md, progress.md, learning_rules.md.
 Текущий день: 4. Тема: if / else. Статус: в процессе.
 Дни 1–3 закрыты. day_04.py ещё не сдан на проверку.
+Git: github.com/mrprohindei/python-ai-learning (ветка main).
 Соблюдай правила: не давать готовые решения, подсказки только по запросу.
 ```
 
