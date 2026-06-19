@@ -17,7 +17,26 @@
 #    Результат: 2 из 3
 # 5. Используй минимум одну функцию def (сама придумай, зачем: проверка ответа,
 #    приветствие, подсчёт — на твой выбор).
-#
+def answer(prav, otvet):
+    if otvet.strip().lower() == prav:
+        print ("Молодец! +1 балл")
+        return 1
+    else:
+        print("Неправильно!")
+    return 0
+
+otvet_1 = input("Столица России, это Берлин? да/нет: ")
+rezultat_1 = answer("нет", otvet_1)
+
+otvet_2 = input("Были ли люди на луне? да/нет: ")
+rezultat_2 = answer("да", otvet_2)
+
+otvet_3 = input("Земля плоская? да/нет: ")
+rezultat_3 = answer("нет", otvet_3)
+
+summa = rezultat_1 + rezultat_2 + rezultat_3
+print("Правильных ответов:", summa,"из 3")
+
 # Можно: input, print, int, if/elif/else, for, while, and/or,
 #        len, .strip(), .lower(), def, return.
 # Нельзя: списки, файлы, новые библиотеки.
